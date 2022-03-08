@@ -1,4 +1,46 @@
 /* RWD Phone size min 280px */
-.bg-video-wrap{
+/* .bg-video-wrap{
     width: 100%;
+} */
+
+html{
+    font-size: 10px;
+}
+
+.container{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.row{
+    display: flex;
+}
+
+/* PHONE SIZE NAV SECTION */
+
+.nav-row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-col-logo{
+    width: 15%;
+}
+
+.nav-logo-wrap{
+    width: 100%;
+}
+
+.nav-logo-wrap img{
+    width: 100%;
+}
+
+.nav-col-btn{
+    width: 85%;
+}
+
+
+.nav-col-btn ul{
+    display: none;
 }
