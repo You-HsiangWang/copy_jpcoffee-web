@@ -9,8 +9,8 @@ html{
 
 .container{
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .row{
@@ -18,28 +18,45 @@ html{
 }
 
 /* PHONE SIZE NAV SECTION */
+.nav-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 .nav-row{
     justify-content: space-between;
     align-items: center;
 }
 
+/* PHONE SIZE NAV SECTION - logo */
 .nav-col-logo{
-    width: 15%;
+    /* width: 15%; */
 }
 
 .nav-logo-wrap{
-    width: 100%;
+    width: 15%;
 }
 
 .nav-logo-wrap img{
     width: 100%;
 }
 
+
+/* PHONE SIZE NAV SECTION - menu */
 .nav-col-btn{
-    width: 85%;
+    /* width: 15%; */
 }
 
+.nav-col-btn-menu{
+}
+
+.nav-col-btn-menu-img-wrap{
+    width: 100%;
+}
+
+.nav-col-btn-menu-img-wrap img{
+    width: 100%;
+}
 
 .nav-col-btn ul{
     display: none;
