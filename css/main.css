@@ -12,7 +12,8 @@ html{
     font-size: 10px;
     font-family: 'M PLUS 1 Code', sans-serif;
     font-weight: lighter;
-    letter-spacing: .5rem;
+    letter-spacing: .3rem;
+    line-height: 2;
     color: #fff;
 }
 
@@ -129,7 +130,6 @@ nav {
     writing-mode: vertical-rl;
     font-size: 1.6rem;
     line-height: 2;
-    letter-spacing: .5rem;
 }
 
 /* PHONE SIZE STORY SECTION */
@@ -268,5 +268,88 @@ nav {
     position: absolute;
     top: 0;
     z-index: -1;
-    opacity: .2;
+    opacity: .1;
+}
+
+/* PHONE SIZE SWEET SECTION */
+.sweetsection-title {
+    background-image: linear-gradient(110deg, #6d311d 22%, #664a29 55%, #41342b 90%);
+}
+
+.sweetsection-title-container{
+    padding: 8rem 0 4rem 4rem;
+}
+
+.sweetsection-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sweetsection-title-col h2{
+    font-size: 1.6rem;
+    line-height: 2;
+    word-break: keep-all;
+    margin-bottom: 4rem;
+}
+
+.sweetsection-title-col:nth-child(1) h2{
+    position: relative;
+}
+
+.sweetsection-title-col:nth-child(1) h2::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.sweetsection-crepetitle-img-col{
+    width: 100%;
+    height: 45vh;
+}
+
+.sweetsection-crepetitle-img-wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.sweetsection-crepetitle-img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sweetsection-crepetitle-col{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+.sweetsection-crepetitle h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sweetsection-crepetxt-col {
+    width: 80%;
+    padding-bottom: 4rem;
+}
+
+.sweetsection-crepetxt-img-wrap {
+    width: 100%;
+}
+
+.sweetsection-crepetxt-img-wrap img{
+    width: 100%;
+}
+
+.sweetsection-crepetxt{
+    margin-top: 2rem;
+    line-height: 2;
 }
