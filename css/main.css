@@ -130,6 +130,7 @@ nav {
     writing-mode: vertical-rl;
     font-size: 1.6rem;
     line-height: 2;
+    font-weight: normal;
 }
 
 /* PHONE SIZE STORY SECTION */
@@ -154,6 +155,10 @@ nav {
     line-height: 2;
     word-break: keep-all;
     margin-bottom: 8rem;
+}
+
+.storysection-txt h2:nth-child(2){
+    font-weight: normal;
 }
 
 .storysection-txt h2:nth-child(1){
@@ -218,6 +223,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
+    font-weight: normal;
 }
 
 .storysection-blankbg {
@@ -294,6 +300,10 @@ nav {
     margin-bottom: 4rem;
 }
 
+.sweetsection-title-col:nth-child(2) h2{
+    font-weight: normal;
+}
+
 .sweetsection-title-col:nth-child(1) h2{
     position: relative;
 }
@@ -326,19 +336,25 @@ nav {
 
 .sweetsection-crepetitle-col{
     width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     
 }
 
 .sweetsection-crepetitle h3{
     text-align: center;
     font-size: 2rem;
+    font-weight: normal;
 }
 
-.sweetsection-crepetxt-col {
+.sweetsection-crepeimg-col {
     width: 80%;
     padding-bottom: 4rem;
+}
+
+.sweetsection-crepetxt-col{
+    width: 80%;
+    padding-bottom: 8rem;
 }
 
 .sweetsection-crepetxt-img-wrap {
@@ -351,5 +367,86 @@ nav {
 
 .sweetsection-crepetxt{
     margin-top: 2rem;
+    line-height: 2;
+}
+
+.sweetsection-pufftitle-col{
+    width: 100%;
+}
+
+.sweetsection-pufftitle-bg{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.sweetsection-pufftitle-bgc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url(https://storage.googleapis.com/studio-design-asset-files/projects/v7qG3XdrqL/s-2400x1600_v-frms_webp_b2d7a0f7-3c5c-4c76-938f-8c579bf31dfc_middle.webp);
+    background-position: center bottom;
+    background-size: cover;
+    filter: grayscale(1);
+    opacity: 0.2;
+}
+
+.sweetsection-pufftitle-bglinear{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(0deg, #41342b, rgba(65, 52, 43, 0));
+}
+
+.sweetsection-pufftitle-txt{
+    width: 100%;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.sweetsection-row-puff-special{
+    margin-top: -10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sweetsection-puff-col{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sweetsection-puff-col-img-wrap{
+    width: 100%;
+}
+
+.sweetsection-puff-col-img-wrap img{
+    width: 100%;
+}
+
+.sweetsection-puff-col-title{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sweetsection-puff-col-txt{
+    flex-grow: 1;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     line-height: 2;
 }
