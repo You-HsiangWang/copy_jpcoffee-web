@@ -21,6 +21,11 @@ body{
     background: #41342b;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .container{
     width: 100%;
     padding-left: 2.5rem;
@@ -667,3 +672,136 @@ nav {
     padding-right: 2rem;
     line-height: 2;
 }
+
+/* PHONE SIZE SERVICE SECTION */
+.servicesection{
+
+}
+
+.servicesection-titlewrap-container{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.servicesection-title-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/s-2400x1601_v-frms_webp_a52cbdc6-94cb-43e7-8e48-416ceb9768bf.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.servicesection-title-top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(0deg, rgba(65, 52, 43, 0.9), #41342b); 
+}
+
+.servicesection-title-bottom{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    height: 25%;
+    background-image: linear-gradient(0deg, #000000, rgba(0, 0, 0, 0));
+}
+
+.servicesection-title-container{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    overflow: auto;
+    padding: 0rem 0 4rem 4rem;
+}
+
+.servicesection-title-col h2{
+    font-size: 1.6rem;
+    line-height: 2;
+    word-break: keep-all;
+    margin-bottom: 4rem;
+}
+
+.servicesection-title-col:nth-child(2) h2{
+    font-weight: normal;
+}
+
+.servicesection-title-col:nth-child(1) h2{
+    position: relative;
+}
+
+.servicesection-title-col:nth-child(1) h2::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.servicesection-bg {
+    background-color: #000000;
+    padding-top: 8rem;
+}
+
+.servicesection-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesection-space-col{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicesection-space-col-img-wrap{
+    width: 100%;
+}
+
+.servicesection-space-col-img-wrap img{
+    width: 100%;
+}
+
+.servicesection-space-col-title{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.servicesection-space-col-txt{
+    flex-grow: 1;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 2;
+}
+
+.servicesection-footer{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesection-footer-bg{
+    width: 150%;
+    flex-shrink: 0;
+}
+
+.servicesection-footer-bg img{
+    width: 100%;
+}
+
+/* PHONE SIZE CONTACT SECTION */
